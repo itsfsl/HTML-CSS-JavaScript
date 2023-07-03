@@ -1,0 +1,18 @@
+body {
+
+    background-color: rgb(48, 15, 120);
+    text-align: center;
+}
+
+#counter {
+
+    display: block;
+    text-align: center;
+    font-size: 200px;
+    color: rgb(236, 28, 129);
+}
+
+button {
+
+    background-color: yellow;
+}

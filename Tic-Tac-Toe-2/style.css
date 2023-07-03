@@ -1,0 +1,49 @@
+body {
+
+    background-color: black;
+}
+
+#restartButton {
+
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.cell {
+
+    width: 75px;
+    height: 75px;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 22px;
+    margin: 5px;
+    font-size: 50px;
+}
+
+#mainGame {
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 250px;
+    margin: auto;
+}
+
+#gameContainer {
+
+    text-align: center;
+}
+
+#gameTitle {
+
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+}
+
+#gameStatus {
+
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <title>My first website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <label for="today">What's today?</label>
+    <input type="text" name="today" id="today">
+    <button type="button" id="myButton">submit</button>
+    <script src="index.js"></script>
+    <button style="background-color: rgb(139, 62, 255); color: rgb(255, 255, 255);">useless button</button>
+    <h1>
+        This is everything I learned from the tutorial
+    </h1>
+    <p>
+        It includes creating buttons and creating forms.
+    </p>
+    <br>
+    <p>
+        So here is a simple form that <del>he</del> I have made. Hehe :)
+    </p>
+    <br>
+    <form>
+        <div>
+            <label for="firstNameLabel">First Name</label>
+            <input type="text" name="First Name" id="firstNameLabel" placeholder="Your First Name Here">    
+        </div>
+        <br>
+        <div>
+            <label for="lastNameLabel">Last Name</label>
+            <input type="text" name="First Name" id="lastNameLabel" placeholder="Your Last Name Here">    
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="Password" id="password" placeholder="Your Password Here">    
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" placeholder="Your Email Here">    
+        </div>
+        <br>
+        <div>
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" name="Phone Number" id="phoneNumber" placeholder="Your Phone Number Here">    
+        </div>
+        <br>
+        <div>
+            <label for="birthdate">Birthdate</label>
+            <input type="date" name="Birthdate" id="birthdate">    
+        </div>
+        <br>
+        <div>
+            <label for="quantity">Quantity</label>
+            <input type="number" name="Quantity" id="quantity" min="0" max="10">    
+        </div>
+        <br>
+        <div>
+            <label for="title">Title: </label>
+            <label for="Mr. ">Mr. </label>
+            <input type="radio" name="title" id="Mr. " value="Mr. ">  
+            <label for="Mrs. ">Mrs. </label>
+            <input type="radio" name="title" id="Mrs. " value="Mrs. ">  
+            <label for="Phd. ">Phd. </label>
+            <input type="radio" name="title" id="Phd. " value="Phd. ">  
+        </div>
+        <br>
+        <div>
+            <label for="payment">Payment Options</label>
+            <select id="payment" name="payment">
+                <option value="visa">Visa</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="upi">UPI</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="confirm">Confirm?</label>
+            <input type="checkbox" name="confirm" id="confirm">
+        </div>
+        <br>
+        <div>
+            <input type="reset" name="reset" id="reset">
+            <input type="submit" name="submit" id="submit">
+        </div>
+    </form>
+</body>
+</html>
